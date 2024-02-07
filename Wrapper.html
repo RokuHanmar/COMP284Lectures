@@ -1,0 +1,17 @@
+# htmlUH.py
+
+def startHTML(title):
+	print('''\
+Content-type: text/html
+
+<!DOCTYPE html>
+<html lang='en-GB'>
+  <head>
+    <meta charset='utf-8'>
+    <link rel='stylesheet', type='text/css'>
+	  <href='form.css'>
+    <title>''' + title + '''</title>
+  </head><body>''')
+
+def endHTML():
+	print(''' </body></html>''')
